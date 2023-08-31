@@ -80,7 +80,7 @@ html {
 
 .about-text {
     text-align: center;
-    width: 854px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ html {
 
 .about-text p {
     font-size: 2rem;
-    width: 592px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -207,12 +207,20 @@ html {
 
 /* Responsive Mobile */
 @media screen and (max-width:992px) {
+
+    /* Navbar */
     #navbar-mobile {
         display: block;
     }
 
     #navbar-desktop {
         display: none;
+    }
+
+    .about-text {
+
+        width: 100%;
+
     }
 
 
